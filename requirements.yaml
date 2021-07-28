@@ -29,7 +29,7 @@ dependencies:
   repository: https://grafana.github.io/helm-charts
   condition: global.grafana.enabled
 - name: redis
-  version: 11.3.4
+  version: 14.8.6
   repository: https://charts.bitnami.com/bitnami
   condition: redis.install
 - name: nginx-ingress
