@@ -1011,7 +1011,7 @@ shared-secrets:
       # ensuring that the image tag is available from both instances. The digest can be
       # found in the 'sync_images' job.
       #   https://dev.gitlab.org/gitlab/charts/components/images/-/tags
-      tag: 1.6.1@sha256:e89392e13b4ef12cd48ba8c30326aacd89a8d0161cb081ac8dfbb77200d5ebac
+      tag: 1.6.1@sha256:8828540ee14598baa6276b2dd21c6a4a338d214b81c791bd192d9fafb2038bbd
     keyAlgorithm: "rsa"
     keySize: "4096"
     expiry: "3650d"
