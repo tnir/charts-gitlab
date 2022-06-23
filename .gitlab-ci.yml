@@ -475,7 +475,7 @@ danger-review:
     - danger --fail-on-errors=true
 
 rubocop:
-  image: ruby:2.7.4-alpine
+  image: ruby:3.1.2-alpine
   stage: prepare
   dependencies: []
   before_script:
@@ -539,7 +539,7 @@ check_docs_links:
       - *com_auto_deploy_branch_ref
 
 .review-docs:
-  image: ruby:2.7-alpine
+  image: ruby:3.1-alpine
   stage: review
   cache: {}
   dependencies: []
