@@ -17,7 +17,7 @@ dependencies:
   repository: https://prometheus-community.github.io/helm-charts
   condition: prometheus.install
 - name: postgresql
-  version: 8.9.4
+  version: 8.10.14
   repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
   condition: postgresql.install
 - name: gitlab-runner
