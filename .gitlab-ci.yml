@@ -475,7 +475,7 @@ danger-review:
     - danger --fail-on-errors=true
 
 rubocop:
-  image: ruby:2.7.4-alpine
+  image: ruby:2.7.8-alpine
   stage: prepare
   dependencies: []
   before_script:
