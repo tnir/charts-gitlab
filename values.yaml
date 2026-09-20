@@ -663,7 +663,7 @@ global:
       # ensuring that the image tag is available from both instances. The digest can be
       # found in the 'sync_images' job.
       #   https://dev.gitlab.org/gitlab/charts/components/images/-/tags
-      tag: 1.18.20@sha256:8d27c191af306cafddba2f293c5613f8966363f779d79a5599ad0231e60069e4
+      tag: 1.36.4@sha256:d67ab376fe12d14b4c54ec7edaf616dcb365422c502029fd2fde666e66e5ccd1
       # pullPolicy: IfNotPresent
       # pullSecrets: []
     securityContext:
